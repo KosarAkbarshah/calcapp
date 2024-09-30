@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    >h1 {
+        width: 90%;
+        height: 20vh;
+        background-image: linear-gradient(to left, #cd9cf2 0%, #e8e3f8 100%);
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        color: rgb(45, 41, 41);
+
+
+    }
+
+    >.resetStudent {
+        display: flex;
+        gap: 10px;
+
+        >* {}
+
+        >input {
+
+            padding: 10px;
+            border-radius: 15px;
+
+            margin: 10px;
+
+            background-image: linear-gradient(to top, #cd9cf2 0%, #e8e3f8 100%);
+            border: #cd9cf2;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+}
