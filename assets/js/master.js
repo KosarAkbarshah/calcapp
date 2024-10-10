@@ -86,12 +86,12 @@ averageContainer.className = "student2avrage";
 studentOneForm.appendChild(averageContainer);
 
 let averageLabel = document.createElement("label");
-averageLabel.setAttribute("for", "s2avrage");
+averageLabel.setAttribute("for", "s2navrage");
 averageContainer.appendChild(averageLabel);
 
 let averageInput = document.createElement("input");
 averageInput.type = "text";
-averageInput.id = "s2avrage";
+averageInput.id = "s2navrage";
 averageInput.placeholder = "%";
 averageInput.disabled = true;
 averageContainer.appendChild(averageInput);
