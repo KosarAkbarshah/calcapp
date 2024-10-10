@@ -2,11 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
 }
 
 body {
     background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 /*header*/
@@ -56,249 +59,52 @@ header {
 
 /* end header*/
 
-/*Forms*/
+/* forms  */
 .forms {
-    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
-    >.student2 {
-        width: 25%;
-        height: 450px;
-        border: 1px solid black;
-        margin: 20px;
-        border-radius: 15px;
-        background: #c7b8ea;
+.studentForm {
+    width: 33%;
 
-        >h2 {
-            font-size: 30px;
-            color: rgb(59, 56, 55);
-            padding: 10px;
-        }
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 15px;
+    background: #c7b8ea;
 
-        >form {
-
-            .s2a1 {
-                padding-left: 10px;
-                padding-bottom: 10px;
-                font-size: 17px;
-                font-weight: 600;
-                color: rgb(59, 56, 55);
-
-                >label {
-
-                    font-size: 17px;
-                    font-weight: 600;
-                    color: rgb(59, 56, 55);
-                }
-
-            }
-
-            .s2a1mark {
-                padding-left: 10px;
-                padding-bottom: 10px;
-
-                >label {
-
-                    font-size: 17px;
-                    font-weight: 600;
-                    color: rgb(59, 56, 55);
-                }
-            }
-
-            .s2a2 {
-                padding-left: 10px;
-                padding-bottom: 10px;
-                font-size: 17px;
-                font-weight: 600;
-                color: rgb(59, 56, 55);
-
-                >label {
-
-                    font-size: 17px;
-                    font-weight: 600;
-                    color: rgb(59, 56, 55);
-                }
-
-            }
-
-            .s2a2mark {
-                padding-left: 10px;
-                padding-bottom: 10px;
-                font-size: 17px;
-                font-weight: 600;
-                color: rgb(59, 56, 55);
-
-            }
-        }
-
-        .s2a3 {
-            padding-left: 10px;
-            padding-bottom: 10px;
-            font-size: 17px;
-            font-weight: 600;
-            color: rgb(59, 56, 55);
-
-            >label {
-                font-size: 17px;
-                font-weight: 600;
-                color: rgb(59, 56, 55);
-
-            }
-
-        }
-
-        .s2a3mark {
-            padding-left: 10px;
-            padding-bottom: 10px;
-            font-size: 17px;
-            font-weight: 600;
-            color: rgb(59, 56, 55);
-        }
-
+    >h2 {
+        font-size: 30px;
+        color: rgb(59, 56, 55);
+        padding: 10px;
     }
-
-    .submitAv {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-
-        >input {
-            font-size: 14px;
-            font-weight: 600;
-            color: rgb(59, 56, 55);
-            padding: 4px;
-            width: 230px;
-        }
-    }
-
-    .student2avrage {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10px;
-
-    }
-    /* ///////////////////// */
-    >.student3 {
-        width: 25%;
-        height: 450px;
-        border: 1px solid black;
-        margin: 20px;
-        border-radius: 15px;
-        background: #c7b8ea;
-        
-        >h2 {
-            font-size: 30px;
-            color: rgb(59, 56, 55);
-            padding: 10px;
-        }
-        >form {
-
-            .s3a1 {
-                padding-left: 10px;
-                padding-bottom: 10px;
-                font-size: 17px;
-                font-weight: 600;
-                color: rgb(59, 56, 55);
-
-                >label {
-
-                    font-size: 17px;
-                    font-weight: 600;
-                    color: rgb(59, 56, 55);
-                }
-
-            }
-            .s3a1mark {
-                padding-left: 10px;
-                padding-bottom: 10px;
-
-                >label {
-
-                    font-size: 17px;
-                    font-weight: 600;
-                    color: rgb(59, 56, 55);
-                }
-            }
-            .s3a2 {
-                padding-left: 10px;
-                padding-bottom: 10px;
-                font-size: 17px;
-                font-weight: 600;
-                color: rgb(59, 56, 55);
-
-                >label {
-
-                    font-size: 17px;
-                    font-weight: 600;
-                    color: rgb(59, 56, 55);
-                }
-
-            }
-
-            .s3a2mark {
-                padding-left: 10px;
-                padding-bottom: 10px;
-                font-size: 17px;
-                font-weight: 600;
-                color: rgb(59, 56, 55);
-
-            }
-        }
-
-        .s3a3 {
-            padding-left: 10px;
-            padding-bottom: 10px;
-            font-size: 17px;
-            font-weight: 600;
-            color: rgb(59, 56, 55);
-
-            >label {
-                font-size: 17px;
-                font-weight: 600;
-                color: rgb(59, 56, 55);
-
-            }
-
-        }
-
-        .s3a3mark {
-            padding-left: 10px;
-            padding-bottom: 10px;
-            font-size: 17px;
-            font-weight: 600;
-            color: rgb(59, 56, 55);
-        }
-
-    }
-
-    .submitAv {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-
-        >button {
-            font-size: 14px;
-            font-weight: 600;
-            color: rgb(59, 56, 55);
-            padding: 4px;
-            width: 230px;
-        }
-    }
-
-    .student3avrage {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10px;
-
-    }
-
 
 }
-    
+
+.studentForm label {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(59, 55, 57);
+    padding: 10px;
+}
+
+
+.studentForm input[type="text"] {
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.studentForm .submitAv button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    color: rgb(59, 56, 55);
+    background-color: #e8e3f8;
+    border: none;
+    cursor: pointer;
+}
