@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    ;
 }
 
 body {
@@ -107,4 +109,38 @@ header {
     background-color: #e8e3f8;
     border: none;
     cursor: pointer;
+}
+
+
+/* class avrage  */
+.avrageOfClass {
+    width: 600px;
+    height: 150px;
+    background-color: #c7b8ea;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 100px auto;
+
+    >* {}
+
+    >.buttonAv {
+        width: 200px;
+        height: 50px;
+        border-radius: 15px;
+        background-image: linear-gradient(to top, #cd9cf2 0%, #e8e3f8 100%);
+        color: black;
+        font-size: 17px;
+        display: block;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+
+    >#classAverage {
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;
+    }
+
 }

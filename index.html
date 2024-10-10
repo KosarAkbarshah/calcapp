@@ -17,9 +17,10 @@
     <header>
         <h1>Grade Calculator App</h1>
         <div class="resetStudent">
-            <input type="reset" value="Reset Student #1" form="student1">
+            <input type="button" value="Reset Student #1" id="resetStudent1Btn">
             <input type="reset" value="Reset Student #2" form="student2">
             <input type="reset" value="Reset Student #3" form="student3">
+            <input type="reset" value="Reset class avrage" id="resetclass">
         </div>
     </header>
     <main>
@@ -130,8 +131,15 @@
                 </form>
             </div>
             <!-- Coded by: Farnaz -->
-
         </section>
+
+        <!-- class avrage section -->
+        <!-- coded by: kosar -->
+        <div class="avrageOfClass">
+            <button class="buttonAv">Calculate Class Avrage</button>
+            <label for="classAverage"></label>
+            <input type="text" name="" id="classAverage" placeholder="%" disabled>
+        </div>
     </main>
     <script src="assets/js/master.js"></script>
 </body>
