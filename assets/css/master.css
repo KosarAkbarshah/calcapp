@@ -42,19 +42,20 @@ header {
         display: flex;
         gap: 10px;
 
+
         >* {}
 
         >input {
-
+            width: 200px;
+            height: 60px;
             padding: 10px;
             border-radius: 15px;
-
             margin: 10px;
-
             background-image: linear-gradient(to top, #cd9cf2 0%, #e8e3f8 100%);
             border: #cd9cf2;
             font-weight: 600;
             cursor: pointer;
+            font-size: 18px;
         }
     }
 }

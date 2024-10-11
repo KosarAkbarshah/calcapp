@@ -144,12 +144,11 @@ const resetStudent1Btn = document.getElementById("resetStudent1Btn");
 resetStudent1Btn.addEventListener("click", function () {
     // Get all inputs
     const student1Inputs = document.querySelectorAll("#student1 input.grade-inputs");
-    const student1Outputs = document.querySelectorAll("#student1 input.grade-outputs");
     const averageInput = document.getElementById("s2navrage");
 
     // Reset all
     student1Inputs.forEach(input => input.value = '');
-    student1Outputs.forEach(output => output.placeholder = '%');
+
     averageInput.value = '';
 });
 
