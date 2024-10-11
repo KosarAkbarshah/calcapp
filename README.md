@@ -18,8 +18,8 @@ This project is a **Grade Calculator App** designed for calculating individual a
 
 -👩‍💻 Role - Frontend 
 
--💭 How to reach the team : with my [linkedin](https://www.linkedin.com/in/tara-akbarshah-22102b1b6/)
-with my [linkedin](https://www.linkedin.com/in/farnaz-darvish/)
-with my [linkedin](https://www.linkedin.com/in/danialalborz/)
+-💭 How to reach the team : Kosar Akbarshah [linkedin](https://www.linkedin.com/in/tara-akbarshah-22102b1b6/)
+Farnaz Darvish [linkedin](https://www.linkedin.com/in/farnaz-darvish/)
+Danial Alborz [linkedin](https://www.linkedin.com/in/danialalborz/)
 
 
