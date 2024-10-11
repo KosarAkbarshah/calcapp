@@ -17,6 +17,7 @@ document.querySelector("#student1").appendChild(studentOneForm);
 
 function assignmentCreator(number) {
     let assignmentContainer = document.createElement('div');
+    assignmentContainer.style.margin = "2.5rem 0";
 
     // assignment input
     let AssignmentInputContainer = document.createElement('div');
@@ -81,10 +82,9 @@ let submitContainer = document.createElement("div");
 submitContainer.className = "submitAv";
 studentOneForm.appendChild(submitContainer);
 
-let studentOneSubmitButton = document.createElement("input");
+let studentOneSubmitButton = document.createElement("button");
 studentOneSubmitButton.type = "submit";
-studentOneSubmitButton.value = "Calculate average";
-studentOneSubmitButton.className = "submit";
+studentOneSubmitButton.textContent = "Calculate average";
 studentOneSubmitButton.id = "submitbtn";
 submitContainer.appendChild(studentOneSubmitButton);
 // end of submit btn
