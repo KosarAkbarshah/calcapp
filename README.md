@@ -8,7 +8,7 @@ This project is a **Grade Calculator App** designed for calculating individual a
 
 
 
-- ❤️‍🔥[Demo Project](https://kosarakbarshah.github.io/calcapp/)
+- 💡[Demo Project](https://kosarakbarshah.github.io/calcapp/)
 
 -💗Developed by Kosar Akbarshah , Farnaz Darvish, Danial Alborz
 
